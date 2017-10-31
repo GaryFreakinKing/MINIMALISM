@@ -1,0 +1,576 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Minimal - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+  background-color: #f5f5f5;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #BC8F8F;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color: #BC8F8F;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #dcdcdc;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color:  #FFDAB9;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}*/
+
+#flex-container{
+	margin-left: 50px; 
+	width: 90%;
+	height: 1200px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 45px auto;
+	box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#flex-elem{
+	padding: 15px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+#elem{
+	height: 290px;
+	width: 440px;
+	flex-grow: 1;
+	flex-shrink: 400px;
+	flex-basis: 200px;
+	
+}
+.one:hover{
+	transform: rotate(10deg) scale(1.3);
+	transition: 1s; 
+	border: white solid 10px;
+	opacity: 0.6;
+	border-radius: 50%;
+	box-shadow:
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+
+
+}
+.three:hover{
+	transform: rotate(10deg) scale(1.3);
+	transition: 1s; 
+	border: white solid 10px;
+	opacity: 0.6;
+	border-radius: 50%;
+	box-shadow:
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+}
+.five:hover{
+	transform: rotate(10deg) scale(1.3);
+	transition: 1s; 
+	border: white solid 10px;
+	opacity: 0.6;
+	border-radius: 50%;
+	box-shadow:
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+}
+
+.four:hover{
+	transform: rotate(-10deg) scale(1.3);
+	transition: 1s; 
+	border: white solid 10px;
+	opacity: 0.6;
+	border-radius: 50%;
+	box-shadow:
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+}
+.two:hover{
+	transform: rotate(-10deg) scale(1.3);
+	transition: 1s; 
+	border: white solid 10px;
+	opacity: 0.6;
+	border-radius: 50%;
+	box-shadow:
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+  
+
+}
+.six:hover{
+	transform: rotate(-10deg) scale(1.3);
+	transition: 1s; 
+	border: white solid 10px;
+	opacity: 0.6;
+	border-radius: 50%;
+	box-shadow:
+    1px 1px black,
+    2px 2px black,
+    3px 3px black,
+    4px 4px black,
+    5px 5px black,
+    6px 6px black,
+    7px 7px black;
+}
+
+}
+.preloader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: 2;
+	transition: 1s all;
+	opacity: 1;
+	visibility: visible;
+
+
+}
+
+.loader{
+		width: 55px;
+		height: 55px;
+		border: 10px solid white;
+		border-radius: 50%; 
+		border-top-color: grey;
+		position: absolute;
+		left:  47%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		animation: 2s spin infinite linear;  
+
+	}
+.done{
+	opacity: 0;
+	visibility: hidden;
+}
+
+@keyframes spin {
+from {
+	transform: translate(-50%, -50%) rotate(0deg);
+}
+
+to {
+	transform: translate(-50%, -50%) rotate(360deg);
+}
+
+}
+
+
+
+.slide-container{
+	max-width: 95%;
+	position: relative;
+	margin: auto;
+}
+
+#prev, #next{
+	cursor: pointer;
+	position: relative;
+	top: 50%;
+	width: auto;
+	margin-top: -25px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: 0.8% ease;
+	border-radius: 0 3px 3px 0; 
+
+}
+
+
+
+#next{
+	right: 8px;
+	border-right: 3px 0 0 3px;
+
+}
+
+#prev:hover, #next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.text{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	left: 49%;
+	bottom: 0; 
+}
+
+.numbertext{
+	position: absolute; 
+	color: white;
+}
+
+.dot{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 5px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color: 0.6s ease;
+
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}
+
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1s;
+	animation-name: fade;
+	animation-duration: 1s;
+
+}
+
+@-webkit-key-frames fade{
+	0{opacity: 0.4;}
+	100%{opacity: 1;}
+}
+@key-frames fade{
+	0%{opacity: 0.4;}
+	100%{opacity: 1;}
+}
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/header-bg2.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	font-family: Verdana;
+	margin-top: 150px;
+	color: green;
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#headerwrap h3 {
+	color: green;
+	font-size: 30px;
+	font-weight: 100;
+    font-family: 'FontAwesome', 'serif';
+    font-style: oblique;
+}
+
+#headerwrap .logo {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+
+/* Footer Wrap */
+
+#f {
+	background: #FFA07A;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center
+}
+
+#f h3, h1 {
+	color:  #20B2AA;
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;	
+}
+
+#f i {
+	font-size: 9px;
+	color:   #20B2AA;
+    padding: 3px;
+}
+
+/*#f blockquote{ 
+	font-size: 20px;
+	color:  #008B8B;
+ }*/
+
+#f p {
+	font-size: 20px;
+	color:  #008B8B;
+}
+
+#f img {
+	text-align: center;
+}
+
+.marks{
+	width: 95%;
+	max-width: 1000px;
+	overflow: auto; 
+}
+
+/* MENU CONF*/
+
+.menu {
+	position: fixed;
+	right: -200px;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	text-align: left;
+}
+
+.menu.menu-open {
+	right: 1px;
+}
+
+.menu-wrap {
+	position: absolute;
+	top: 0;
+	left: 60px;
+	background: #F4A460;
+	width: 200px;
+	height: 100%;
+}
+
+.menu h1.logo a {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.3em;
+	line-height: 35px;
+	text-transform: uppercase;
+	color: #E0FFFF;
+	margin-top: 15px;
+}
+
+.menu h1.logo a:hover {
+	color: #FFD700;
+}
+
+.menu img.logo {
+	margin: 20px 0;
+	max-width: 160px;
+}
+
+.menu a {
+	margin-left: 20px;
+	color: #7FFF00;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.menu a:hover {
+	color: #FFD700;
+}
+
+.menu a:active {
+	color: #FFD700;
+}
+
+.menu a > i {
+	float: left;
+	display: inline-block;
+	vertical-align: middle; 
+	text-align: left;
+	width: 25px;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 25px 2px;
+}
+
+.menu-close {
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: #808080;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 20px;
+	right: 5px;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+.menu-close:hover {
+	color: #00FFFF;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+/* Push the body after clicking the menu button */
+.body-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.body-push-toright {
+	left: 200px;
+}
+
+.body-push-toleft {
+	left: -200px;
+}
+
+.menu,
+.body-push {
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		 -o-transition: all .3s ease;
+			transition: all .3s ease;
+}
+
+#menuToggle {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 11;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: rgba(0,0,0,0.25);
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+#menuToggle:hover {
+	color: #00FFFF;
+	background: rgba(0,0,0,0.2);
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+}
+
+
